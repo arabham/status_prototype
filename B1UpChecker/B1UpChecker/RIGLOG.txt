@@ -1,0 +1,37 @@
+Job 7670528d from us-east.ethash-hub.miningpoolhub.com:20555; diff: 8589HH
+Eth speed 242.619 NH/s, shares: 3/0/0, time: 0:02
+OPUS 130.339 HH/S (0) 2: 30.313 HH/S (0) 3: 30.327 MH/S (0) 4: 30.292 M/S (0) 5: 30.333 M/S (0) 6: 30.325 NIVS 17130394 VS (2) BI 80.85A VAO
+Eth: New Job 1442a5 from us-east.ethash-hub.miningpoolhub.com:20555; diff: 8589HH
+Eth speed: 244.293 HH/S, shares: 3/0/0, time: 0:02
+Eth: Share actual difficulty: 19.3 GH (1)
+Eth: Shure accepted in 33 m
+Eth speed: 244.907 MVS, shares: 4/0/0, time: 0.02
+SPUST 1730627 / (0) 21 30.582 M/S (0) 31 30.588 M/S 04130612 MH/S 05130611 MH/s (0) 61 30.619 MB/S 17130680 NVS (a) Bi 80.614 NVI (0)
+Eth speed: 242.580 M/S, shares: 4/0/0, time: 0:02
+GPUS: 1: 30.317 VS 02130320 V/S 03130288 M/S 04130343 M/S (0) S: 30.338 M/s (0) 6: 30.313 MH/s 17130349 MH/S 30130312 HH/ (0)
+Eth: New Job 135922a6 from us-east.ethash-hub.miningpoolhub.com:20555; diff: 8589MH
+Eth speed: 241.457 MH/S, shares: 4/0/0, time: 0:02
+SPUS: 11 30.182 / 02130185 HKVS (0) 3: 30.157 M/S (0) 4: 30.172 MH/S (0) 5: 30.193 m/s 06130177 MH/S 17180211 MVS (9) Bs 30,100 NVS (0)
+Eth speed: 240.849 vs. shares: 4/0/0, time: 0.02
+GPUS: 1130116 Vs (0) 2: 30.112 M/S (0) 3: 30.085 M/S (0) 4: 30.103 NVS 05130107 m/s 06130105 MVS 1730109 MH/S (3) Bs 10,312 vs (0
+Eth speed: 240.558 M/s, shares: 4/0/0, time: 0:02
+D 30.070 v 2 : 30.077 HVS (0) 3: 30.055 MIVS (0) 4: 30.069 M/S 05130072 M/S 06130063 NVS 1751007 NVI O TI
+OPE 45C GOX SH, GPU: 420 60% 70W, GPS: 420 60% 6EH, GPU: 40C SO GW GPUS 40C SOK 74, GPUS 41C 60% 69, OC 603
+US Doer: 557.0 H
+Eth speed: 240.433 NVS, shares: 4/0/0, time: 0:02
+GPUS: 1: 30.057 m (0) 2: 30.059 M/S (0) 3: 30.040 HHs 04130051 M/(0) S: 30.060 M/S 06530047 NV/S 17130050 NV/(9) BI 30.061 Ms (0)
+0:03 10/29 18:20
+Eth: Hining ETC on us-east.ethash-hub.miningpoo1hub.com:20555 for 0:02
+Eth speed: 240.359 MH/s, shares: 4/0/0, time: 0:03
+SPUS: 1: 30.048 HH/S (0) 2: 30.050 M/S (0) 3: 30.033 M/S (0) 4: 30.039 M/S (0) 5: 30.051 m/s 06530037 Mis (17: 30.050 NVS (3) Bs 30,052 M/S (0)
+8 GPU(s) are auto-tuning. Mashrate may be low unt i1 they are ready.
+Eth: Accepted shares 4 (0 stales), rejected shares 0 (0 styles)
+Eth: Incorrect shares o (0.00%), est. stales percentage 0.00%
+Eth: Haximum difficulty of found shares 51.0 D
+Eth: Average speed (5 min): 229.560 HH/S
+Eth: Effective speed: 188.79 US: at pool: 188.79 M/S
+Eth speed: 240.310 MVS, Shares: 4/0/0, time: 0:03
+GPUS: 1: 30.041 Vs 02130046 MV'S (0) 3: 30.023 M/S (0) 4: 30.033 m/s (0) 5: 30.047 MH/s 06130030 MH/s (1) 7: 30.039 M/S (3) 6: 30.045 M/(0)
+Eth speed: 240.332 H/s, shares: 4/0/0, time: 0:03
+GPUS: 1: 30.047 MH/S 02130048 MVS (0) 3: 30.030 HVS (0) 4: 30.037 WS (0) 5: 30.050 HH/s 06130033 HH/S (1) 7: 30.043 NVS 38130046 MS (0)
+Eth New Job ecd954f5 from us-east.ethash-hub.miningpoolhub.com:20555; diff: 8589MH
