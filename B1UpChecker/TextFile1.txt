@@ -1,34 +1,14 @@
-# Rough application stucture
-# global variables
-#firstRun = true
-#subnets = ["192.168.2.1/24","192.168.3.1/24","192.168.4.1/24","192.168.5.1/24","192.168.6.1/24","192.168.7.1/24","192.168.8.1/24","192.168.9.1/24"]
-#totalRigs = 701
-#ipList
-#sshCapture
+def parseLog():
+ 
+        #loglines.reverse()
 
+    with open ('screen.miner.log', 'r') as screenminerlog:
+        for logline in screenminerlog:
+            loglines.append(logline)
+            print(str(loglines))
 
-# function prototypes
-#def firstRun(firstRun):
-#    if (firstRun):
-#        pingSweep(subnets)
-#    else:
-#        startSSH(ipList)
-
-#def startSSH(ipList):
-#    #ssh into first ip
-#    hashTime = getHashTime(sshCapture)
-#    hash = getHash(sshCapture)
-#    numOfCards = getCards(sshCapture)
-#    bDagError = getDagError(sshCapture)
-#    setStatus(hash,numOfCards,bDagError,hashTime)
-    
-#def getHashTime(sshCapture):
-
-#def getHash(sshCapture):
-#    #compare sshCapture to acceplible hash
-
-#def getCards(sshCapture):
-#def getDagError(sshCapture):
-
-#def setStatus(hash,numOfCards,bDagError,hashTime):
-
+    for num, lines in enumerate(loglines):
+        if(loglines[num][0] == 'G'):
+            print('RIGHT!')
+            print(loglines[num])
+            break
