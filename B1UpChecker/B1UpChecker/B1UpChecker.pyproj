@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b51bd0a-2681-4cf6-b975-404b9927c02e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>B1UpChecker.py</StartupFile>
+    <StartupFile>module1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="B1UpChecker.py" />
-    <Compile Include="TextParse.py">
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
