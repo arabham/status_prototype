@@ -1,5 +1,5 @@
 
-class Rig:
+class Rig(object):
 
     def __init__(self, name, status, hashrate, temp, ip):
         self.name = name

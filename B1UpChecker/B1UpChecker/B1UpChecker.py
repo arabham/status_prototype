@@ -1,36 +1,32 @@
 import IPScanner
+import Rig
+import LogFetcher
+import FileReader
+import MakeTable
 
 def main():
-    numOfSubnets = 7
-    activeIPs = runSubnetScan(numOfSubnets)
+    #rig = Rig()
+    #activeIPs = IPScanner.active()
+    #print(activeIPs)
+
+    #for i in activeIPs():
+    # testing loop
+    # TODO:remove
+    for i in range(1):
+        LogFetcher.ftpLogs(str(activeIPs[i]))
+        name = FileReader.parseName()
+        uptime = FileReader.parseUptime()
+        temp = FileReader.parseTemp()
+        gpuCount = FileReader.parseGPUCount()
+        hashrate = FileReader.parseHashrate()
+        rig = Rig(name,uptime,hashrate,tempactiveIPs[i])
+        table = MakeTable.makeCSV(name,uptime,temp,gpuCount,hashrate,activeIPs[i])
+
+
 
 if __name__ == '__main__':
     main()
-    # active ip scan
-    runVlanScans();
-    global rig
+    #global rig
 
-    # TODO remove
-    print(len(active))
-    for i, x in enumerate(active):
-        rigIP = x
-        ftpLogs(rigIP)
-        rigName = parseRigName()
-        rigStatus = parseRigStatus()
-        rigHashrate = parseRigHashRate()
-        rigTemp = parseRigTemp()
-        rig = Rig(rigName,rigStatus,rigHashrate,rigTemp,rigIP)
-
-    f = open("activeips.txt", "w+")
-    for x in range(len(active)):
-        # TODO remove
-        print(active[x])
-        f.write(str(active[x]))
-        f.write('\n')
-    f.close()
-    print(rig.getRigAll())
-
-    #parseLog()
-    # set status
 
     input('Press ENTER to exit')
